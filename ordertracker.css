@@ -128,9 +128,12 @@ body{
     color: #fff;
     width:5px;
     height: 5px;
-    margin-right: 0px !important;
+    margin-right: 32% !important;
     /* padding-right: 11px !important */
 }
+
+
+
 
 #progressbar li:before {
     line-height: 29px;
