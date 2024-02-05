@@ -19,7 +19,7 @@ function showInformation() {
 document.getElementById('step1').innerText = "Ordered";
 document.getElementById('step2').innerText = "Shipped";
 document.getElementById('step3').innerText = "On the way";
-document.getElementById('step2').innerText = "Held";
+document.getElementById('step4').innerText = "Held";
 }
  // Display additional address information
  var addressElement = document.createElement('div');
