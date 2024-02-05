@@ -18,8 +18,8 @@ function showInformation() {
     // Update tracking information
 document.getElementById('step1').innerText = "Ordered";
 document.getElementById('step2').innerText = "Shipped";
-document.getElementById('step3').innerText = "Arrived at Gold Bar Mini Storage, 101 8th St, Gold Bar, WA 98251, United States";
-
+document.getElementById('step3').innerText = "On the way";
+document.getElementById('step2').innerText = "Held";
 }
  // Display additional address information
  var addressElement = document.createElement('div');
