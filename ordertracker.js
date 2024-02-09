@@ -1,6 +1,6 @@
 function checkOrder() {
     var orderId = document.getElementById("order_id").value;
-    var validOrderId = "20240128-0001"; // Your valid order ID
+    var validOrderId = "US-1002-2381"; // Your valid order ID
     if (orderId === validOrderId) {
         // Show tracking and receipt information
         showInformation();
@@ -18,8 +18,9 @@ function showInformation() {
     // Update tracking information
 document.getElementById('step1').innerText = "Ordered";
 document.getElementById('step2').innerText = "Shipped";
-document.getElementById('step3').innerText = "On the way";
-document.getElementById('step4').innerText = "Held";
+document.getElementById('step3').innerText = "";
+document.getElementById('step4').innerText = "";
+
 }
  // Display additional address information
  var addressElement = document.createElement('div');
