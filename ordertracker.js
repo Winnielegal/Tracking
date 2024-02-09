@@ -28,7 +28,7 @@ document.getElementById('step4').innerText = "";
                              '<div class="info">' +
                              '<div class="row">' +
                              '<div class="col-12">' +
-                             '<span id="address">Steven A. Hon. 4465 Boca way Spc 113 Reno, NV 89502</span>' +
+                             '<span id="address">Evan Rowley P. O. Box 165 Menifee CA 92586S</span>' +
                              '</div>' +
                              '</div>' +
                              '</div>';
